@@ -1,0 +1,57 @@
+.canvas{
+
+    border: 2px solid black;
+
+}
+
+.picker,.bottom{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+body{  /* Very nice piece of code for centering do remember*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.black,.font{
+
+    margin: 10px ;
+}
+button{
+    margin: 10px;
+
+}
+.black>p, .font>p {
+
+    margin: 10px auto;
+    width: 50%;
+}
+.black, .font, button, input, select{
+
+    text-align: center;
+    width: 80%;
+    /* margin: 20px 50px 5px 50px; */
+
+}
+
+input{
+    padding: 5px;
+}
+select{
+    text-align: left;
+}
